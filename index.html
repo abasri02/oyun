@@ -3,8 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sayı Toplama Oyunu</title>
+    <title>Sayı Toplama Oyunu - Abdullah Basri Doğan</title>
     <link rel="stylesheet" href="stil.css">
+    <style>
+        .assignment-section {
+            margin-top: 40px;
+            padding: 25px;
+            background-color: #f9f5eb;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .assignment-section h2 {
+            color: #8B4513;
+            text-align: center;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        
+        .student-info {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .student-info h3 {
+            color: #8B4513;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        .student-info p {
+            margin-bottom: 8px;
+            padding-left: 15px;
+        }
+        
+        .qa-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .qa-item {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .qa-item h4 {
+            color: #8B4513;
+            margin-bottom: 10px;
+        }
+        
+        .qa-item p {
+            line-height: 1.6;
+        }
+        
+        .highlight {
+            background-color: #f0e6d2;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -67,6 +132,138 @@
             <h3>Nasıl Oynanır?</h3>
             <p>Hedef sayıyı, kutulardan seçeceğiniz 3 sayının toplamı ile eşleştirin.</p>
         </div>
+
+        <!-- Ödev Soruları ve Cevapları -->
+        <div class="assignment-section">
+            <h2>Mantıksal Akıl Yürütme Vize Ödevi</h2>
+            
+            <div class="student-info">
+                <h3>Öğrenci Bilgileri</h3>
+                <p><strong>İsim:</strong> Abdullah Basri Doğan</p>
+                <p><strong>Öğrenci Numarası:</strong> 220104105046</p>
+                <p><strong>Ders:</strong> Mantıksal Akıl Yürütme</p>
+                <p><strong>Ödev:</strong> Vize Ödevi</p>
+                <p><strong>Hocanın Adı:</strong> Timur Koparan</p>
+                <p><strong>Teslim Tarihi:</strong> 07.11.2025</p>
+            </div>
+            
+            <div class="qa-container">
+                <div class="qa-item">
+                    <h4>1. Oyun fikrinizi nasıl seçtiniz?</h4>
+                    <p>Oyun fikrini seçerken, öğrencilerin temel matematik becerilerini geliştirebilecekleri, eğlenceli ve etkileşimli bir deneyim sunmayı hedefledim. Yapay zekaya, "toplama işlemini öğreten basit bir matematik oyunu" fikrini sundum ve birlikte bu "Sayı Toplama Oyunu" konseptini geliştirdik. Amacım, matematik öğrenimini daha eğlenceli hale getirmekti.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>2. Hangi matematiksel kavram veya beceriye odaklandınız?</h4>
+                    <p>Oyunumuz <span class="highlight">temel toplama işlemi</span> becerisine odaklanmaktadır. Öğrenciler, verilen hedef sayıya ulaşmak için farklı sayı kombinasyonlarını toplamayı öğrenirler. Ayrıca, <span class="highlight">sayıları zihinden toplama, stratejik düşünme ve problem çözme</span> becerilerini de geliştirirler.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>3. Oyunun kuralları ve hedefleri öğrenme sürecine nasıl hizmet ediyor?</h4>
+                    <p>Oyunun kuralları basit ve anlaşılırdır: <span class="highlight">3 sayı seçerek hedef sayıya ulaşmak</span>. Bu kural, öğrencilerin toplama işlemlerini pratik etmelerini sağlar. Zaman sınırı, öğrencilerin hızlı düşünme ve karar verme becerilerini geliştirir. Seviye atlama ve puan sistemi ise motivasyonu artırarak öğrenme sürecini destekler.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>4. Oyununuzda yapay zekâ hangi görevi üstleniyor?</h4>
+                    <p>Yapay zekâ, bu oyunda <span class="highlight">oyun geliştirici ve kod yazıcı</span> rolünü üstlenmiştir. Oyunun tüm HTML, CSS ve JavaScript kodlarını yapay zekâ ile birlikte geliştirdim. Ayrıca, oyun mekaniklerini tasarlama, zorluk seviyelerini belirleme ve oyun dengelemeleri yapma konularında da yapay zekâdan yardım aldım.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>5. Oyununuzda "rastgelelik", "strateji geliştirme" veya "geri bildirim" unsurları nasıl yer alıyor?</h4>
+                    <p><span class="highlight">Rastgelelik</span>, sayıların ve hedefin her turda değişmesiyle sağlanmıştır. <span class="highlight">Strateji geliştirme</span>, oyuncunun hangi sayıları seçeceğine karar vermesi ve zamanı verimli kullanması gerekliliğinden doğar. <span class="highlight">Geri bildirim</span> ise anlık puanlama, doğru/yanlş sesleri ve görsel efektlerle sağlanmıştır.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>6. Yapay zeka, oyunun hangi kısmında öğrenciye etkileşimli bir öğrenme fırsatı sağlıyor?</h4>
+                    <p>Yapay zeka, oyunun <span class="highlight">dinamik zorluk seviyeleri</span> ve <span class="highlight">anında geri bildirim</span> mekanizmaları sayesinde etkileşimli öğrenme fırsatı sunar. Öğrenci yanlış yaptığında hemen düzeltilir, doğru yaptığında ödüllendirilir. Ayrıca, seviye ilerledikçe zorluk artarak öğrencinin sürekli gelişimini teşvik eder.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>7. Yapay zekâ oyun sürecinde öğrencilere nasıl bir öğrenme desteği sağlıyor?</h4>
+                    <p>Yapay zeka, öğrencilere <span class="highlight">kişiselleştirilmiş öğrenme yolu</span> sunar. Kolay, normal ve zor modlar sayesinde öğrenci kendi seviyesine uygun bir deneyim yaşar. Ayrıca, oyunun tasarımı ve geri bildirim mekanizmaları, öğrencinin hatalarından öğrenmesine ve matematiksel düşünme becerilerini geliştirmesine olanak tanır.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>8. Yapay zekanın oyundaki varlığı oyuncuların motivasyonunu nasıl etkileyebilir?</h4>
+                    <p>Yapay zeka sayesinde oyun daha <span class="highlight">dinamik, etkileşimli ve kişiselleştirilebilir</span> hale gelmiştir. Bu da oyuncuların motivasyonunu artırır. Anında geri bildirim, puanlama sistemi ve görsel/ işitsel öğeler, öğrenme sürecini daha eğlenceli hale getirerek içsel motivasyonu güçlendirir.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>9. Yapay zekâ ile geliştirilen oyunun geleneksel bir oyundan farkı nedir?</h4>
+                    <p>Yapay zeka ile geliştirilen oyunun en önemli farkı, <span class="highlight">hızlı prototipleme ve test etme</span> imkanı sunmasıdır. Geleneksel yöntemlerle haftalar sürebilecek bir geliştirme süreci, yapay zeka sayesinde saatler içinde tamamlanabilir. Ayrıca, yapay zeka daha önce düşünülmeyen mekanikler ve çözümler önerebilir.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>10. Oyunun hangi kavramların daha iyi anlaşılmasını sağlayacağını düşünüyorsunuz?</h4>
+                    <p>Oyunun <span class="highlight">toplama işlemi, sayıların birleştirilmesi, tahmin yürütme ve stratejik düşünme</span> kavramlarının daha iyi anlaşılmasını sağlayacağını düşünüyorum. Öğrenciler, farklı sayı kombinasyonlarını deneyerek matematiksel ilişkileri keşfeder ve sayılar arasındaki bağlantıları daha iyi anlarlar.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>11. Oyununuz öğrencilerin hangi matematiksel düşünme becerilerini geliştiriyor?</h4>
+                    <p>Oyunumuz öğrencilerin <span class="highlight">akıl yürütme, genelleme, tahmin, örüntü kurma ve problem çözme</span> becerilerini geliştirir. Öğrenciler, hedef sayıya ulaşmak için farklı stratejiler deneyerek matematiksel düşünme süreçlerini aktif olarak kullanırlar.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>12. Oyunda öğrencilerin öğrenme sürecini nasıl değerlendiriyorsunuz?</h4>
+                    <p>Öğrenme süreci <span class="highlight">puanlama, seviye ilerlemesi ve can sistemi</span> ile değerlendirilir. Yüksek puan ve ilerleyen seviyeler, öğrencinin matematiksel becerilerde gelişim gösterdiğini işaret eder. Can sistemi ise hata yapma ve öğrenme fırsatlarını gösterir.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>13. Oyunun sonunda öğrencilerde hangi kavramların daha iyi anlaşıldığını gözlemlemeyi bekliyorsunuz?</h4>
+                    <p>Oyun sonunda öğrencilerin <span class="highlight">sayıları parçalama ve birleştirme, toplama işleminin değişmeli özelliği, tahmin yürütme ve stratejik düşünme</span> becerilerinde gelişim bekliyorum. Ayrıca, matematiksel problemlere farklı açılardan bakabilme yeteneklerinin geliştiğini gözlemlemeyi umuyorum.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>14. Oyununuzun sınıf ortamında kullanılabilirliği hakkında ne düşünüyorsunuz?</h4>
+                    <p>Oyunun sınıf ortamında <span class="highlight">oldukça kullanışlı</span> olacağını düşünüyorum. Öğretmenler, oyunu bireysel çalışma, grup etkinliği veya sınıf yarışması olarak kullanabilir. Farklı zorluk seviyeleri, farklı sınıf düzeylerine uygun olarak ayarlanabilir. Ayrıca, web tabanlı olması herhangi bir cihazda erişilebilir olmasını sağlar.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>15. Oyun geliştirme sürecinde hangi araç veya platformları kullandınız?</h4>
+                    <p>Oyunu geliştirirken <span class="highlight">HTML, CSS, JavaScript</span> teknolojilerini kullandım. Yapay zeka olarak ise <span class="highlight">ChatGPT</span>'den yardım aldım. Kod editörü olarak basit bir metin editörü kullanmak yeterli oldu.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>16. Geliştirme sürecinde karşılaştığınız zorlukluklar nelerdi?</h4>
+                    <p>En büyük zorluk, <span class="highlight">oyun mekaniklerini dengeli hale getirmek</span> oldu. Hedef sayının her zaman çözülebilir olmasını sağlamak için özel bir algoritma geliştirmek gerekti. Ayrıca, farklı zorluk seviyeleri için uygun sayı aralıklarını ve zaman sınırlarını belirlemek de dikkat gerektiren bir süreçti.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>17. Yapay zekâyı entegre ederken hangi verilerden veya modellerden yararlandınız?</h4>
+                    <p>Yapay zekayı entegre ederken <span class="highlight">doğal dil işleme modellerinden</span> yararlandım. Yapay zekaya oyun fikrimi ve istediğim özellikleri açıkladım, o da bana uygun kod yapılarını ve çözümleri önerdi. Ayrıca, oyun tasarımı ve kullanıcı deneyimi konularında da yapay zekadan fikir aldım.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>18. Oyunu tamamlayıncaya kadar toplam kaç yönerge verdiniz? Oyun toplam ne kadar sürede tamamlandı?</h4>
+                    <p>Oyunu tamamlamak için yapay zekaya <span class="highlight">yaklaşık 10-15 yönerge</span> verdim. İlk yönergeler genel oyun konsepti içindi, sonrakiler ise spesifik iyileştirmeler ve hata düzeltmeler üzerineydi. Toplam geliştirme süresi <span class="highlight">3-4 saat</span> civarında oldu.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>19. Bu süreç size matematik öğretimi hakkında ne öğretti?</h4>
+                    <p>Bu süreç bana <span class="highlight">oyunlaştırmanın matematik öğretimindeki gücünü</span> bir kez daha gösterdi. Öğrencilerin eğlenirken öğrenebileceklerini, zorlanmadan gelişebileceklerini gördüm. Ayrıca, anında geri bildirimin öğrenme sürecini ne kadar hızlandırdığını deneyimlemiş oldum.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>20. Yapay zekâ ile çalışmak öğretmen rolünüzü nasıl etkiledi?</h4>
+                    <p>Yapay zeka ile çalışmak, öğretmen rolümü <span class="highlight">daha çok bir rehber ve tasarımcıya</span> dönüştürdü. Teknik detaylarla uğraşmak yerine, öğrenme deneyimini tasarlamaya ve iyileştirmeye odaklanabildim. Yapay zeka, zaman alan teknik işleri halletti, ben de pedagojik açıdan daha verimli olabildim.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>21. Yapay zeka destekli oyun geliştirme süreci sırasında matematik kavramlarını yeniden düşünmenizi sağlayan bir an oldu mu?</h4>
+                    <p>Evet, <span class="highlight">"ensureSolvable" fonksiyonunu</span> geliştirirken matematik kavramlarını yeniden düşünmek zorunda kaldım. Her hedef sayının en az bir çözümü olmasını sağlamak, bana matematikteki "var olma" kavramını pratik bir bağlamda düşünme fırsatı verdi. Ayrıca, farklı zorluk seviyeleri için uygun sayı aralıklarını belirlerken sayıların büyüklük kavramını yeniden değerlendirdim.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>22. Geliştirdiğiniz oyun, öğrenci açısından nasıl bir öğrenme deneyimi sunuyor olabilir?</h4>
+                    <p>Oyunumuz öğrencilere <span class="highlight">güvenli, hata yapmaya açık, kişiselleştirilmiş ve motive edici</span> bir öğrenme deneyimi sunuyor. Öğrenciler kendi hızlarında ilerleyebilir, hata yapmaktan korkmazlar çünkü hatalar öğrenme fırsatına dönüşür. Görsel ve işitsel geri bildirimler öğrenmeyi pekiştirir, seviye atlama ve puan sistemi ise sürekli gelişim için motivasyon sağlar.</p>
+                </div>
+                
+                <div class="qa-item">
+                    <h4>23. Oyun tasarlarken yaptığınız bir hatayı veya yanlış varsayımı fark ettiğiniz oldu mu? Bunu nasıl düzelttiniz?</h4>
+                    <p>Evet, ilk tasarımda <span class="highlight">hedef sayının tamamen rastgele belirlenmesinin</span> bazen çözümsüz durumlara yol açtığını fark ettim. Bu durum öğrencilerin hayal kırıklığına uğramasına neden olabilirdi. Bu hatayı, "ensureSolvable" fonksiyonunu ekleyerek düzelttim. Bu fonksiyon, hedef sayının her zaman en az bir çözümü olacak şekilde belirlenmesini sağladı.</p>
+                </div>
+            </div>
+        </div>
     </div>
 
     <audio id="correct-sound" src="data:audio/mpeg;base64,SUQzBAAAAAAAI1RTU0UAAAAPAAADTGF2ZjU4Ljc2LjEwMAAAAAAAAAAAAAAA//tQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWGluZwAAAA8AAAABAAACcQCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAABQTEFNRTMuMTAwBKkAAAAAAAAAADUgJAOHQQAB9AAACHDYI1mRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//sQZAAP8AAAaQAAAAgAAA0gAAABAAABpAAAACAAADSAAAAETEFNRTMuMTAwVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV"></audio>
@@ -74,5 +271,4 @@
 
     <script src="kod.js"></script>
 </body>
-
 </html>
